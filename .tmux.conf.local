@@ -297,6 +297,9 @@ set -g mouse on
 # move status line to top
 #set -g status-position top
 
+# do not clear history when Ctrl+L is pressed
+unbind -n C-l
+
 # Status bar refresh rate (in seconds)
 set -g status-interval 10
 
