@@ -294,3 +294,10 @@ tmux_conf_copy_to_os_clipboard=false
 
 # move status line to top
 #set -g status-position top
+
+# Plugin options
+set -g @continuum-save-interval '10'    # in minutes, not seconds
+set -g @continuum-restore 'on'
+set -g @resurrect-processes 'ssh sudo "iotop" sudo "iftop" alsamixer'
+set -g @resurrect-capture-pane-contents 'on'
+set -g @prefix_highlight_show_copy_mode 'on'
