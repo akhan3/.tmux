@@ -308,7 +308,6 @@ set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
 set -g @resurrect-processes 'ssh sudo "iotop" sudo "iftop" alsamixer'
 set -g @resurrect-capture-pane-contents 'on'
-set -g @prefix_highlight_show_copy_mode 'on'
 
 # List of plugins
 set -g @tpm_plugins '\
