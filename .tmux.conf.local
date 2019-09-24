@@ -310,6 +310,7 @@ unbind -n C-l
 set -g status-interval 10
 
 # Plugin options
+set -g @tpm-update 'u' # upper-case U conflicts with urlview
 set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
 set -g @resurrect-processes 'ssh sudo "iotop" sudo "iftop" alsamixer'
