@@ -4,6 +4,9 @@
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
 
+# Use tmux terminal description if you want to use italics
+set -g default-terminal "tmux"
+
 # -- navigation ----------------------------------------------------------------
 
 # if you're running tmux within iTerm2
