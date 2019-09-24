@@ -309,3 +309,12 @@ set -g @continuum-restore 'on'
 set -g @resurrect-processes 'ssh sudo "iotop" sudo "iftop" alsamixer'
 set -g @resurrect-capture-pane-contents 'on'
 set -g @prefix_highlight_show_copy_mode 'on'
+
+# List of plugins
+set -g @tpm_plugins '\
+    tmux-plugins/tpm                \
+    tmux-plugins/tmux-resurrect     \
+    tmux-plugins/tmux-continuum     \
+    akhan3/tmux-plugin-sysstat      \
+    akhan3/tmux-temp                \
+'
