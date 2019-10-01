@@ -321,6 +321,7 @@ set -g @tpm_plugins '\
     tmux-plugins/tpm                \
     tmux-plugins/tmux-resurrect     \
     tmux-plugins/tmux-continuum     \
+    tmux-plugins/tmux-sensible      \
     akhan3/tmux-plugin-sysstat      \
     akhan3/tmux-temp                \
 '
