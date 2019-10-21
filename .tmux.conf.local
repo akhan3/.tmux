@@ -313,7 +313,7 @@ set -g status-interval 10
 set -g @tpm-update 'u' # upper-case U conflicts with urlview
 set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
-set -g @resurrect-processes 'ssh sudo "iotop" sudo "iftop" alsamixer'
+set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer'
 set -g @resurrect-capture-pane-contents 'on'
 
 # List of plugins
