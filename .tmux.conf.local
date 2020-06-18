@@ -191,7 +191,7 @@ tmux_conf_theme_status_left=" ❐ #S "
 tmux_conf_theme_status_right="\
 #{prefix}#{pairing}#{synchronized} \
 #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar} ,} , \
-#{sysstat_mem} , #{sysstat_cpu} #{temp_cpu} #{loadavg} | \
+#{temp_cpu} , #{loadavg} | \
 #{root}#{hostname} | \
 %b-%d %R "
 
@@ -327,7 +327,6 @@ set -g @tpm_plugins '\
     tmux-plugins/tmux-resurrect     \
     tmux-plugins/tmux-continuum     \
     tmux-plugins/tmux-sensible      \
-    akhan3/tmux-plugin-sysstat      \
     akhan3/tmux-temp                \
 '
 
