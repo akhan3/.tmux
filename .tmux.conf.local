@@ -10,7 +10,7 @@ if '[[ $(uname) == "Darwin" ]] && true' {
 }
 
 # Use tmux terminal description if you want to use italics
-set -g default-terminal "tmux"
+# set -g default-terminal "tmux"
 
 # -- navigation ----------------------------------------------------------------
 
