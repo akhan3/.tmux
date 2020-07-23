@@ -194,6 +194,7 @@ tmux_conf_theme_status_right="\
 #{temp_cpu} , MEM:#{mem_use} , #{loadavg} | \
 #{root}#{hostname} | \
 %b-%d %R \
+#($TMUX_PLUGIN_MANAGER_PATH/tmux-mem-cpu-load/tmux-mem-cpu-load -m2 -a0 --interval 2 --colors) | \
 "
 
 # status left style
