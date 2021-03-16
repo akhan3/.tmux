@@ -5,7 +5,7 @@
 
 
 # Use tmux terminal description if you want to use italics
-set -g default-terminal "tmux"
+set -g default-terminal "tmux-256color"
 
 # -- navigation ----------------------------------------------------------------
 
