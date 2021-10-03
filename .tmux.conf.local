@@ -328,8 +328,7 @@ set -g @tpm_plugins '\
     tmux-plugins/tmux-resurrect     \
     tmux-plugins/tmux-continuum     \
     tmux-plugins/tmux-sensible      \
-    akhan3/tmux-temp                \
-    akhan3/tmux-mem-cpu-load        \
+    kolach/tmux-temp                \
 '
 
 # Installation guide
