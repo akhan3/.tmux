@@ -4,11 +4,6 @@
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
 
-# Set default shell on Mac OS X
-if '[[ $(uname) == "Darwin" ]] && true' {
-    set -g default-shell "/usr/local/bin/bash"
-}
-
 # Use tmux terminal description if you want to use italics
 # set -g default-terminal "tmux"
 
