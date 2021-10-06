@@ -360,7 +360,7 @@ unbind -n C-l
 # unbind C-a
 # unbind C-b
 # set -g prefix C-a
-# bind C-a send-prefix
+bind a send-prefix
 
 # move status line to top
 #set -g status-position top
