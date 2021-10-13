@@ -405,8 +405,7 @@ tmux_conf_uninstall_plugins_on_reload=true
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
-set -g @plugin 'tmux-plugins/tmux-cpu'
-set -g @plugin 'kolach/tmux-temp'
+# set -g @plugin 'laktak/extrakto'  # requires Python 3.6+ :(
 
 # Plugin options
 set -g @tpm-update 'u' # upper-case U conflicts with urlview
