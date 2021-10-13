@@ -335,8 +335,9 @@ tmux_conf_copy_to_os_clipboard=true
 bind-key C-a last-window
 
 # Activity monitoring
-setw -g monitor-activity on
-set -g visual-activity both
+set -g visual-activity off
+set -g visual-bell off
+set -g visual-silence on
 
 # status bar refresh rate
 set -g status-interval 5
