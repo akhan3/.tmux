@@ -406,6 +406,7 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @plugin 'fcsonline/tmux-thumbs'  # requires Rust/Cargo toolchain
+set -g @plugin 'woodstok/tmux-butler'
 # set -g @plugin 'laktak/extrakto'  # requires Python 3.6+ :(
 
 # Plugin options
@@ -414,6 +415,8 @@ set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
 set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer dmesg'
 set -g @resurrect-capture-pane-contents 'on'
+set -g @thumbs-key Tab  # very important since Space is used to rearrange panes
+set -g @thumbs-unique enabled
 
 
 # -- custom variables ----------------------------------------------------------
