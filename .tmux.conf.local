@@ -418,6 +418,10 @@ set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer dmesg
 set -g @resurrect-capture-pane-contents 'on'
 set -g @thumbs-key Tab  # very important since Space is used to rearrange panes
 set -g @thumbs-unique enabled
+# set -g @thumbs-fg-color black
+# set -g @thumbs-bg-color white
+# set -g @thumbs-position off_left
+# set -g @thumbs-hint-bg-color blue
 
 
 # -- custom variables ----------------------------------------------------------
