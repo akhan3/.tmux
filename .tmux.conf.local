@@ -412,7 +412,7 @@ set -g @plugin 'woodstok/tmux-butler'
 set -g @tpm-update 'u' # upper-case U conflicts with urlview
 set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
-set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer dmesg bat'
+set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer dmesg bat less vim vi fzf'
 set -g @resurrect-capture-pane-contents 'on'
 set -g @thumbs-key Tab  # very important since Space is used to rearrange panes
 set -g @thumbs-unique enabled
