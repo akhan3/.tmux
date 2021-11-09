@@ -405,7 +405,6 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @plugin 'fcsonline/tmux-thumbs'  # requires Rust/Cargo toolchain
 set -g @plugin 'woodstok/tmux-butler'
-set -g @plugin "arcticicestudio/nord-tmux"
 # set -g @plugin 'laktak/extrakto'  # requires Python 3.6+ :(
 
 # Plugin options
