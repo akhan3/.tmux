@@ -418,7 +418,7 @@ set -g @thumbs-unique enabled
 set -g @thumbs-regexp-1 '\b\w{12,}\b' # Match words longer than 12 characters
 # set -g @thumbs-fg-color black
 # set -g @thumbs-bg-color white
-# set -g @thumbs-position off_left
+set -g @thumbs-position right
 # set -g @thumbs-hint-bg-color blue
 
 
