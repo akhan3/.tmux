@@ -347,7 +347,7 @@ set -g visual-silence on
 set -g status-interval 5
 
 # increase history size
-set -g history-limit 50000
+set -g history-limit 6543210
 
 # start with mouse mode enabled
 set -g mouse on
