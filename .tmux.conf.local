@@ -381,6 +381,11 @@ unbind -n C-l
 # move status line to top
 #set -g status-position top
 
+# Visual optimizations for tmux-thumbs
+set -g visual-activity off
+set -g visual-bell off
+set -g visual-silence on
+
 
 # -- tpm -----------------------------------------------------------------------
 
