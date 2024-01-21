@@ -439,7 +439,7 @@ set -g @plugin 'fcsonline/tmux-thumbs'
 set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
 # set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer dmesg bat less vim vi "fzf" "ip>
-set -g @resurrect-capture-pane-contents 'on'
+set -g @resurrect-capture-pane-contents 'off'
 set -g @thumbs-key Tab  # very important since Space is used to rearrange panes
 set -g @thumbs-unique enabled
 set -g @thumbs-regexp-1 '\b\w{12,}\b' # Match words longer than 12 characters
