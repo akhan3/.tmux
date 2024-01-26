@@ -255,8 +255,8 @@ tmux_conf_theme_status_left="|| ❐ #S "
 tmux_conf_theme_status_right=" #{prefix_highlight} #{mouse}#{pairing}#{synchronized} %b-%d %R | #{loadavg} | #{hostname} "
 
 # status left style
-tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_6,$tmux_conf_theme_colour_7,$tmux_conf_theme_colour_8"
-tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_9,$tmux_conf_theme_colour_10,$tmux_conf_theme_colour_11"
+tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_6,$tmux_conf_theme_colour_7,$tmux_conf_theme_colour_14"
+tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_9,$tmux_conf_theme_colour_10,$tmux_conf_theme_colour_17"
 tmux_conf_theme_status_left_attr="bold,none,none"
 
 # status right style
