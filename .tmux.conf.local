@@ -380,9 +380,6 @@ set -g history-limit 50000  # 50k lines
 # start with mouse mode enabled
 set -g mouse on
 
-# spawn new panes as non-login shells (very important)
-set -g default-command "${SHELL}"
-
 # force Vi mode
 #   really you should export VISUAL or EDITOR environment variable, see manual
 #set -g status-keys vi
