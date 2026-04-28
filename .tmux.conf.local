@@ -402,6 +402,14 @@ bind C-s switch-client -l  # move to last session
 # `bind a send-prefix`; only C-a after prefix needs this forwarder.
 bind A send-keys C-a C-a
 
+# klaude is an fzf picker for Claude Code sessions.
+# Binding it here makes session-switching a one-chord operation.
+bind C-k run-shell klaude
+
+# tjump is a dotfiles fzf picker over active tmux sessions; switches
+# to the chosen session on Enter. Spawns its own tmux popup via fzf.
+bind C-j run-shell tjump
+
 # do not clear history when Ctrl+L is pressed
 unbind -n C-l
 
