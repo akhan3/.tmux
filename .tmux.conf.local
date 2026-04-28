@@ -393,6 +393,7 @@ unbind Tab
 set -g prefix C-a
 bind a send-prefix
 bind C-a last-window
+bind C-s switch-client -l  # move to last session
 
 # do not clear history when Ctrl+L is pressed
 unbind -n C-l
@@ -463,6 +464,7 @@ set -g @continuum-save-interval '10'    # in minutes, not seconds
 set -g @continuum-restore 'on'
 # set -g @resurrect-processes 'watch ssh sudo "iotop" sudo "iftop" alsamixer dmesg bat less vim vi "fzf" "ip>
 set -g @resurrect-capture-pane-contents 'off'
+set -g @resurrect-save 'S'  # off C-s so prefix+C-s is free for last-session
 set -g @thumbs-key Tab  # very important since Space is used to rearrange panes
 set -g @thumbs-unique enabled
 set -g @thumbs-regexp-1 '\b\w{12,}\b' # Match words longer than 12 characters
