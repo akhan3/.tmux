@@ -395,6 +395,13 @@ bind a send-prefix
 bind C-a last-window
 bind C-s switch-client -l  # move to last session
 
+# Nested tmux (same config): outer's `bind C-a last-window` absorbs
+# C-a C-a before the inner sees it. <prefix> A forwards both bytes
+# into the active pane so the inner can fire its own last-window.
+# Single-key chords like <prefix> a n already work via the existing
+# `bind a send-prefix`; only C-a after prefix needs this forwarder.
+bind A send-keys C-a C-a
+
 # do not clear history when Ctrl+L is pressed
 unbind -n C-l
 
